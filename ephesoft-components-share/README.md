@@ -1,6 +1,6 @@
 
-Javascript Console Admin Console component for Alfresco Share
-=============================================================
+Ephesoft component for Alfresco Share
+=====================================
 
 Author: Ben Chevallereau
 
