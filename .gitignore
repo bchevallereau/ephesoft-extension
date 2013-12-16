@@ -1,0 +1,6 @@
+/ephesoft-components-webservices/target/
+/ephesoft-components-webservices/.settings/
+/ephesoft-components-webservices/.project
+/ephesoft-components-webservices/.classpath
+
+.DS_Store
