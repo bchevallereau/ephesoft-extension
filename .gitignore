@@ -3,4 +3,10 @@
 /ephesoft-components-webservices/.project
 /ephesoft-components-webservices/.classpath
 
+/ephesoft-components-repo/target/
+/ephesoft-components-repo/.settings/
+/ephesoft-components-repo/.project
+/ephesoft-components-repo/.classpath
+
 .DS_Store
+/deploy-*.sh

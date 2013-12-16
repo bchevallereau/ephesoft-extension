@@ -1,0 +1,7 @@
+<webscript>
+	<shortname>Get Active Batch Instances in Ephesoft</shortname>
+	<url>/bataon/batchInstance/status/active</url>
+	<authentication>user</authentication>
+	<format default="json">extension</format>
+	<family>Ephesoft API</family>
+</webscript>
