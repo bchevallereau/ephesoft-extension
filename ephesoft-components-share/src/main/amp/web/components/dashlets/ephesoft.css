@@ -1,0 +1,58 @@
+.batchInstance-item .field-label {
+	font-style: italic;
+}
+
+.batchInstance-item .field-value {
+	font-weight: bold;
+}
+
+.batchInstance-item {
+    padding: 5px 5px 0 0;
+}
+
+.batchInstanceId {
+	font-size: 120%;
+	font-weight: bold;	
+}
+
+.batchInstance-item .yui-pb {
+	width: 100%;
+	height: 10px;
+}
+
+.batchInstance-item .progressbar-ERROR .yui-pb-bar { background-color: rgb(174,31,35); }
+.batchInstance-item .progressbar-READY_FOR_REVIEW .yui-pb-bar { background-color: rgb(28,120,59); }
+.batchInstance-item .progressbar-READY_FOR_VALIDATION .yui-pb-bar { background-color: rgb(28,120,59); }
+.batchInstance-item .progressbar-NEW .yui-pb-bar { background-color: rgb(245,152,51); }
+.batchInstance-item .progressbar-READY .yui-pb-bar { background-color: rgb(245,152,51); }
+.batchInstance-item .progressbar-RUNNING .yui-pb-bar { background-color: rgb(28,120,59); }
+
+.batchInstance-status {
+	width: 50px;
+    background-position: 10px 15px;
+    background-repeat: no-repeat;
+}
+
+.batchInstance-status-ERROR { background-image: url("../images/32x32/notification_error.png"); }
+.batchInstance-status-READY_FOR_REVIEW { background-image: url("../images/32x32/notification_done.png"); }
+.batchInstance-status-READY_FOR_VALIDATION { background-image: url("../images/32x32/notification_done.png"); }
+.batchInstance-status-NEW { background-image: url("../images/32x32/notification_warning.png"); }
+.batchInstance-status-READY { background-image: url("../images/32x32/notification_warning.png"); }
+.batchInstance-status-RUNNING { background-image: url("../images/32x32/player_play.png"); }
+
+.batchInstance-actions {
+	width: 50px;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.reviewUrl {
+    background-image: url("../images/32x32/analysis.png");
+    height: 32px;
+    width: 32px;
+    margin-left: 9px;
+}

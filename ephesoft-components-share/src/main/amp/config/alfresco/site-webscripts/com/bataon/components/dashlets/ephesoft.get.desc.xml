@@ -1,0 +1,6 @@
+<webscript>
+   <shortname>Ephesoft Management</shortname>
+   <description>Dashlet to list documents processing by Ephesoft</description>
+   <family>user-dashlet</family>
+   <url>/components/dashlets/ephesoft</url>
+</webscript>

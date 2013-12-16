@@ -1,0 +1,9 @@
+<config>
+   <max-items>50</max-items>
+   <filters>
+      <filter type="running" />
+      <filter type="error" />
+      <filter type="readyForReview" />
+      <filter type="readyForValidation" />
+   </filters>
+</config>

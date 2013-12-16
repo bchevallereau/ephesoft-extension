@@ -8,5 +8,10 @@
 /ephesoft-components-repo/.project
 /ephesoft-components-repo/.classpath
 
+/ephesoft-components-share/target/
+/ephesoft-components-share/.settings/
+/ephesoft-components-share/.project
+/ephesoft-components-share/.classpath
+
 .DS_Store
 /deploy-*.sh
