@@ -7,3 +7,5 @@ There is 3 sub-components that have been created:
 * ephesoft-components-webservices that demonstrates how to create new webservices in Ephesoft.
 * ephesoft-components-repo that demonstrates how to create Alfresco webscripts to deemonstrate how to consume Ephesoft webservices.
 * ephesoft-components-share that demonstrates how to consume Alfresco webscripts.
+* ephesoft-module-notification that explains how to create a new plugin in Ephesoft that sends a notification on an Android device using the application PushBullet.
+

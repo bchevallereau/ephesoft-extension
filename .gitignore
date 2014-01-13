@@ -13,5 +13,10 @@
 /ephesoft-components-share/.project
 /ephesoft-components-share/.classpath
 
+/ephesoft-module-notification/target/
+/ephesoft-module-notification/.settings/
+/ephesoft-module-notification/.project
+/ephesoft-module-notification/.classpath
+
 .DS_Store
 /deploy-*.sh
