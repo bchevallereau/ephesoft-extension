@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<jar-name>${project.artifactId}.jar</jar-name>
+	<plugin-name>${plugin.name}</plugin-name>
+	<plugin-desc>${plugin.description}</plugin-desc>
+	<plugin-workflow-name>${plugin.workflow.name}</plugin-workflow-name>
+	<plugin-service-instance>notificationPluginService</plugin-service-instance>
+	<method-name>pushNotification</method-name>
+	<is-scripting>FALSE</is-scripting>
+	<back-up-file-name>N/A</back-up-file-name>
+	<script-name>N/A</script-name>
+	<application-context-path>applicationContext-notification-plugin.xml</application-context-path>
+	<plugin-properties>
+		<plugin-property>
+			<name>notification.active</name>
+			<type>BOOLEAN</type>
+			<description>Active ?</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.APIKey</name>
+			<type>STRING</type>
+			<description>API Key</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.deviceIds</name>
+			<type>STRING</type>
+			<description>Device IDs</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.title</name>
+			<type>STRING</type>
+			<description>Title</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.body</name>
+			<type>STRING</type>
+			<description>Body</description>
+			<is-mandatory>FALSE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.addLink</name>
+			<type>BOOLEAN</type>
+			<description>Add link ?</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>notification.url</name>
+			<type>STRING</type>
+			<description>Link URL ?</description>
+			<is-mandatory>FALSE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+	</plugin-properties>
+	<dependencies>
+	</dependencies>
+</plugin>
