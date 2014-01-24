@@ -1,5 +1,5 @@
-PushBullet Notification Plugin
-==============================
+Dropbox Export Plugin
+=====================
 
 Author: Ben Chevallereau
 
