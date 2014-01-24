@@ -18,5 +18,10 @@
 /ephesoft-module-notification/.project
 /ephesoft-module-notification/.classpath
 
+/ephesoft-module-dropbox/target/
+/ephesoft-module-dropbox/.settings/
+/ephesoft-module-dropbox/.project
+/ephesoft-module-dropbox/.classpath
+
 .DS_Store
 /deploy-*.sh

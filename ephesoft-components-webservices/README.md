@@ -27,6 +27,6 @@ To build its JAR file, run the following command from the base project directory
 
     mvn clean package
 
-The command builds a JAR file named ephesoft-components-webservices-<version>.amp in the 'target' directory
+The command builds a JAR file named ephesoft-components-webservices-<version>.jar in the 'target' directory
 within your project.
 

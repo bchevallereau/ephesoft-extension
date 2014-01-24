@@ -40,10 +40,19 @@
 			<artifactId>hibernate-annotations</artifactId>
 			<version>3.4.0.GA</version>
 		</dependency>
+		
+		<!-- EPHESOFT -->
 		<dependency>
 			<groupId>com.ephesoft.dcma</groupId>
 			<artifactId>dcma-core</artifactId>
 			<version>3.0.3.4</version>
+		</dependency>
+		
+		<!-- RSS -->
+		<dependency>
+			<groupId>net.java.dev.rome</groupId>
+			<artifactId>rome</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
