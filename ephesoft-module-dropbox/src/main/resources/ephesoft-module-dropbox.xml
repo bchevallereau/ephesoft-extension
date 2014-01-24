@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<jar-name>${project.artifactId}.jar</jar-name>
+	<plugin-name>${plugin.name}</plugin-name>
+	<plugin-desc>${plugin.description}</plugin-desc>
+	<plugin-workflow-name>${plugin.workflow.name}</plugin-workflow-name>
+	<plugin-service-instance>dropboxPluginService</plugin-service-instance>
+	<method-name>exportContent</method-name>
+	<is-scripting>FALSE</is-scripting>
+	<back-up-file-name>N/A</back-up-file-name>
+	<script-name>N/A</script-name>
+	<application-context-path>applicationContext-dropbox-plugin.xml</application-context-path>
+	<plugin-properties>
+		<plugin-property>
+			<name>dropbox.switch</name>
+			<type>STRING</type>
+			<description>Switch (ON/OFF)</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+			<sample-values>
+				<sample-value>ON</sample-value>
+			</sample-values>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.appKey</name>
+			<type>STRING</type>
+			<description>Application Key</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.appSecret</name>
+			<type>STRING</type>
+			<description>Application Secret</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.appCode</name>
+			<type>STRING</type>
+			<description>Application Code</description>
+			<is-mandatory>FALSE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.folder</name>
+			<type>STRING</type>
+			<description>Root Folder Name</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.extension</name>
+			<type>STRING</type>
+			<description>File Extension (pdf/tif)</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+		<plugin-property>
+			<name>dropbox.filename</name>
+			<type>STRING</type>
+			<description>File name</description>
+			<is-mandatory>TRUE</is-mandatory>
+			<is-multivalue>FALSE</is-multivalue>
+		</plugin-property>
+	</plugin-properties>
+	<dependencies>
+	</dependencies>
+</plugin>
