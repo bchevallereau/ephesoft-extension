@@ -2,18 +2,21 @@ package com.bataon.ephesoft.rest.bean;
 
 import java.util.Date;
 
-public class SampleContent {
+import com.ephesoft.dcma.da.domain.BatchInstance;
+
+public class RssBatchStatus {
 	 
 	String title;
-	String url;
 	String summary;
 	Date createdDate;
 	
+	public RssBatchStatus(BatchInstance batchInstance) {
+		title = batchInstance.getIdentifier();
+		summary = batchInstance.getStatus().toString();
+		createdDate = batchInstance.getLastModified();
+	}
 	public String getTitle() {
 		return title;
-	}
-	public String getUrl() {
-		return url;
 	}
 	public String getSummary() {
 		return summary;
@@ -23,9 +26,6 @@ public class SampleContent {
 	}
 	public void setTitle(String title) {
 		this.title = title;
-	}
-	public void setUrl(String url) {
-		this.url = url;
 	}
 	public void setSummary(String summary) {
 		this.summary = summary;

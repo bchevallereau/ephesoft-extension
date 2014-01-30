@@ -7,22 +7,7 @@
            http://www.springframework.org/schema/tx
            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
            http://www.springframework.org/schema/jdbc
-		   http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
-		   http://www.springframework.org/schema/security
-		   http://www.springframework.org/schema/security/spring-security-3.0.xsd">
-
-	<http:http>
-		<http:intercept-url pattern="/**" access="ROLE_USER" />
-		<http:http-basic />
-	</http:http>
-
-	<http:authentication-manager>
-		<http:authentication-provider>
-			<http:user-service>
-				<http:user name="mkyong" password="123456" authorities="ROLE_USER" />
-			</http:user-service>
-		</http:authentication-provider>
-	</http:authentication-manager>
+		   http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd">
 
 	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
@@ -50,7 +35,5 @@
 	<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
 
 	<bean id="rssViewer" class="com.bataon.ephesoft.rest.rss.CustomRssViewer" />
-
-
 
 </beans>
