@@ -29,6 +29,7 @@ public class DropboxHelper {
 	private static String TOKEN = "token";
 
 	private Map<String, String> properties;
+	private String pluginName;
 
 	public DropboxHelper(Map<String, String> properties) {
 		this.properties = properties;
@@ -111,11 +112,11 @@ public class DropboxHelper {
 
 		// Try to open the file
 		String home = System.getenv("DCMA_HOME");
-		String folderPath = home + File.separator + "WEB-INF" + File.separator + "classes" + File.separator + "META-INF" + File.separator + "dcma-dropbox-plugin";
+		String folderPath = home + File.separator + "WEB-INF" + File.separator + "classes" + File.separator + "META-INF" + File.separator + getPluginName();
 		File folder = new File(folderPath);
 
 		if (folder.exists()) {
-			String filePath = folderPath + File.separator + "dcma-dropbox-plugin.properties";
+			String filePath = folderPath + File.separator + getPluginName() + ".properties";
 			f = new File(filePath);
 			if (!f.exists())
 				f.createNewFile();
@@ -151,5 +152,13 @@ public class DropboxHelper {
 	private void log(String msg) {
 		LOGGER.debug(msg);
 		System.out.println(msg);
+	}
+
+	public String getPluginName() {
+		return pluginName;
+	}
+
+	public void setPluginName(String pluginName) {
+		this.pluginName = pluginName;
 	}
 }

@@ -12,5 +12,6 @@
 	default-autowire="byName">
 
 	<import resource="classpath:/META-INF/dcma-dropbox-plugin/applicationContext.xml" />
+	<import resource="classpath:/META-INF/dcma-dropboximport-plugin/applicationContext-import.xml" />
 
 </beans>

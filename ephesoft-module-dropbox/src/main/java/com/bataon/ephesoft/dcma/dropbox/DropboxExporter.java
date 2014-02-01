@@ -37,6 +37,7 @@ public class DropboxExporter {
 		log(" - Dropbox export plugin: initialisation...");
 
 		DropboxHelper helper = new DropboxHelper(properties);
+		helper.setPluginName("dcma-dropbox-plugin");
 		LOGGER.info("Initializing properties...");
 		String isDropboxON = properties.get(DropboxProperties.DROPBOX_SWITCH.getPropertyKey());
 		if (isDropboxON == null || !isDropboxON.equals("ON")) {
