@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Ephesoft Batch Instance Detail</title>
+   <description>This page allows to manage batch instances stored in Ephesoft.</description>
+   <template-instance>ephesoft-batchinstance</template-instance>
+   <authentication>user</authentication>
+</page>

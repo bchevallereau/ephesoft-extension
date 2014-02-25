@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+	<template-type>com/bataon/components/ephesoft/batchinstance</template-type>
+	<components>
+
+		<!-- Title -->
+		<component>
+			<region-id>title</region-id>
+			<url>/components/title/simple-title</url>
+			<properties>
+				<title-id>ephesoft.page.batchinstance.title</title-id>
+				<subtitle-id>ephesoft.page.batchinstance.description</subtitle-id>
+			</properties>
+		</component>
+
+		<!-- batchinstance -->
+		<component>
+			<region-id>ephesoft-batchinstance</region-id>
+			<url>/com/bataon/components/ephesoft-batchinstance</url>
+		</component>
+	</components>
+</template-instance>
+

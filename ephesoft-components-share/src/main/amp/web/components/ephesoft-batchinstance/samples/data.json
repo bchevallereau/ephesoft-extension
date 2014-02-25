@@ -1,0 +1,61 @@
+{
+	"batchID": "BI29",	
+	"batchName": "ephesoft1392910095537",
+	"batchClass": "I9 Batch Class",	
+    "documents": [
+        {
+            "documentName": "DOC1",
+            "documentType": "I9 Form",
+            "documentTypeID": "D01",
+            "reviewed": false,
+            "pages": [
+                {
+                    "id": "BI29_PG0",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG0.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG0_displayThumb.png"
+                },
+                {
+                    "id": "BI29_PG1",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG1.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG1_displayThumb.png"
+                }
+            ]
+        },
+        {
+            "documentName": "DOC2",
+            "documentType": "I9 Form",
+            "documentTypeID": "D01",
+            "reviewed": false,
+            "pages": [
+                {
+                    "id": "BI29_PG2",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG2.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG2_displayThumb.png"
+                },
+                {
+                    "id": "BI29_PG3",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG3.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG3_displayThumb.png"
+                }
+            ]
+        },
+        {
+            "documentName": "DOC3",
+            "documentType": "I9 Form",
+            "documentTypeID": "D01",
+            "reviewed": true,
+            "pages": [
+                {
+                    "id": "BI29_PG4",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG4.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG4_displayThumb.png"
+                },
+                {
+                    "id": "BI29_PG5",
+                    "imageUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG5.png",
+                    "thumbnailUrl": "/share/res/components/ephesoft-batchinstance/samples/BI29_PG5_displayThumb.png"
+                }
+            ]
+        }
+    ]
+}
